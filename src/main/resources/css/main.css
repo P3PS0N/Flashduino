@@ -1,0 +1,29 @@
+/*-----------Panels------------*/
+.panel-primary {
+    -fx-background-color: #2b2b2b;
+}
+.panel-secondary {
+    -fx-background-color: #313335;
+    -fx-padding: 5px;
+}
+/*-----------------------------*/
+
+/*-----------Buttons-----------*/
+.btn {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+.btn-success { -fx-background-color: #4CAF50; }
+.btn-failed { -fx-background-color: #f44336; }
+.btn-info { -fx-background-color: #008CBA; }
+/*-----------------------------*/
+
+/*-----------Labels------------*/
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.label-small-text { -fx-font-size: 15px; }
+.label-medium-text { -fx-font-size: 17px; }
+.label-big-text { -fx-font-size: 19px; }
+/*-----------------------------*/
