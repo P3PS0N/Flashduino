@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Arduino Uno (ATmega328P)",
+        "id": "atmega328p",
+        "baudrate": "115200",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Nano (ATmega328P)",
+        "id": "atmega328p",
+        "baudrate": "115200",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Nano - Old Bootloader (ATmega328P)",
+        "id": "atmega328p",
+        "baudrate": "57600",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Nano (ATmega168)",
+        "id": "atmega168",
+        "baudrate": "19200",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Mega (ATmega2560)",
+        "id": "atmega2560",
+        "baudrate": "115200",
+        "programmer": "wiring"
+    },
+    {
+        "name": "Arduino Mega (ATmega1280)",
+        "id": "atmega1280",
+        "baudrate": "57600",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Leonardo (ATmega32u4)",
+        "id": "atmega32u4",
+        "baudrate": "57600",
+        "programmer": "avr109"
+    },
+    {
+        "name": "Arduino Micro (ATmega32u4)",
+        "id": "atmega32u4",
+        "baudrate": "57600",
+        "programmer": "avr109"
+    },
+    {
+        "name": "Arduino Mini (ATmega328P)",
+        "id": "atmega328p",
+        "baudrate": "115200",
+        "programmer": "arduino"
+    },
+    {
+        "name": "Arduino Mini (ATmega168)",
+        "id": "atmega168",
+        "baudrate": "19200",
+        "programmer": "arduino"
+    }
+]

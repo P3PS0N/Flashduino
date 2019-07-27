@@ -7,7 +7,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="350.0" styleClass="panel-secondary" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.p3ps0n.flashduino.controller.AboutController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="350.0" styleClass="panel-secondary" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.p3ps0n.flashduino.controller.AboutController">
    <children>
       <Label fx:id="labelVersion" layoutX="40.0" layoutY="40.0" styleClass="label-big-text" text="Flashduino" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
       <Hyperlink fx:id="developerEmail" layoutX="30.0" layoutY="114.0" style="-fx-border-color: transparent;" text="P3PS0N" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="50.0">
@@ -16,11 +16,12 @@
             <String fx:value="label-small-text" />
          </styleClass>
       </Hyperlink>
-      <ImageView fitHeight="109.0" fitWidth="115.0" layoutX="246.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <ImageView fitWidth="95.0" layoutX="246.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
          <image>
             <Image url="@../images/icon.png" />
          </image>
       </ImageView>
       <Label layoutX="183.0" layoutY="135.0" prefWidth="125.0" text="Icon made by Freepik from flaticon.com" wrapText="true" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="135.0" />
+      <Label layoutX="20.0" layoutY="108.0" styleClass="label-small-text" text="Copyright © 2019 P3PS0N" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="85.0" />
    </children>
 </AnchorPane>
