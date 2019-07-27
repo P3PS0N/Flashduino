@@ -3,8 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.p3ps0n</groupId>
   <artifactId>flashduino</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
   <build>
+    <resources>
+      <resource>
+        <filtering>true</filtering>
+        <directory>src/main/resources</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -36,6 +42,7 @@
   </build>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.developer.email>p3ps0n.dev@gmail.com</project.developer.email>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 </project>

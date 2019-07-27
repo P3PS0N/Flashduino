@@ -23,6 +23,13 @@
     -fx-text-fill: white;
     -fx-font-weight: bold;
 }
+.label-about {
+    -fx-font-size: 11px;
+    -fx-text-fill: #787878;
+}
+.label-about:hover {
+    -fx-text-fill: #9b9b9b;
+}
 .label-small-text { -fx-font-size: 15px; }
 .label-medium-text { -fx-font-size: 17px; }
 .label-big-text { -fx-font-size: 19px; }

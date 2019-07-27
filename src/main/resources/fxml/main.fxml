@@ -2,6 +2,7 @@
 
 <?import java.lang.String?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
@@ -131,6 +132,9 @@
                      <HBox.margin>
                         <Insets left="5.0" right="5.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
                <VBox.margin>
@@ -148,6 +152,9 @@
                      <HBox.margin>
                         <Insets left="5.0" right="5.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                   <Button mnemonicParsing="false" onAction="#writeEEPROM" text="Write EEPROM">
                      <styleClass>
@@ -158,6 +165,9 @@
                      <HBox.margin>
                         <Insets left="5.0" right="5.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
                <VBox.margin>
@@ -242,6 +252,9 @@
                      <HBox.margin>
                         <Insets left="5.0" right="5.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
                <VBox.margin>
@@ -259,6 +272,9 @@
                      <HBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                   <Button mnemonicParsing="false" onAction="#readEEPROM" text="Read EEPROM">
                      <styleClass>
@@ -269,6 +285,9 @@
                      <HBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                   </Button>
                </children>
                <VBox.margin>
@@ -293,5 +312,10 @@
             </HBox>
          </children>
       </VBox>
+      <Label fx:id="labelAbout" layoutX="528.0" layoutY="374.0" onMouseClicked="#openAbout" styleClass="label-about" text="Flashduino" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="15.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
    </children>
 </AnchorPane>

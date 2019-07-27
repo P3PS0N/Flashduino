@@ -1,8 +1,11 @@
 package com.p3ps0n.flashduino.popup;
 
+import com.p3ps0n.flashduino.App;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.*;
 import javafx.scene.control.DialogPane;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
 
 public class PopupService {
     public enum Type {
@@ -114,6 +117,8 @@ public class PopupService {
         DialogPane dialogPane = alert.getDialogPane();
         dialogPane.getStylesheets().add(getClass().getResource("/css/dialog.css").toExternalForm());
         dialogPane.getStyleClass().add("dialog-pane");
+        Stage stage = (Stage) dialogPane.getScene().getWindow();
+        stage.getIcons().add(App.getIcon());
 
         return alert;
     }
